@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section class="container">
+        <div>
+            <p>
+                Data de nascimento :
+                <input type="number" name="txtano" id="txtano" placeholder="Data de nascimento">
+            </p>
+            <p>
+                Sexo : 
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Resultado" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+                Preencha o formulário acima para ver os resultados
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Fabrício Jonatan</p>
+        <p>Redes sociais : </p>
+        <a href="https://github.com/FabricioJonatan" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/fabricio-jonatan-martins-nascimento/" target="_blank">Linkedin</a>
+        <a href="https://wa.me/5585981195419?text=Prazer%2C+eu+me+chamo+Fabr%C3%ADcio+e+se+deseja+entrar+em+contato+comigo%2C+%C3%A9+s%C3%B3+chamar%21%21" target="_blank">WhatsApp</a>
+        <a href="mailto: fabricio10jonatan.m.n@gmail.com" target="_blank">Gmail</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

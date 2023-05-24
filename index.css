@@ -1,0 +1,54 @@
+body{
+    background-color: #220869;
+    font: normal 15px arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000090;
+}
+
+div{
+    padding: 10px;
+}
+
+div#res{
+    text-align: center;
+}
+
+img{
+    margin: 20px 0px;
+    border-radius: 50%;
+    width: 300px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+
+@media (max-width: 550px){
+    section{
+        width: 90vw;
+    }
+
+    img{
+        width: 70vw;
+    }
+}
